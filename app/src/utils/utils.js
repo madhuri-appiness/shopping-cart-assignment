@@ -16,3 +16,11 @@ export const getCategories = async () =>{
         return [];
     }
 }
+
+export const getProducts = async () =>{
+    try {
+        return await axios.get(`${BASE_URL}/products`).then(res=>res.data);
+    } catch (e) {
+        return [];
+    }
+}

@@ -3,30 +3,19 @@
 
 
 
-.btn-cls {
-    background-color: #d1056b;
+.btn-primary {
     color: white;
     font-size: 14px;
-    padding: 8px 10px;
-    border: none;
-    display: inline-block;
-
+    margin: 0 auto;
+    min-width: 150px;
     @include phone {
         font-size: 11px;
         padding: 5px;
+        min-width: 100px;
     }
 }
-
-.carousel-indicators [data-bs-target] {
-    width: 8px !important;
-    height: 8px !important;
-    background-color: #999 !important;
-    border-radius: 50%;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-    display: none !important;
+.container{
+    margin:30px auto;
 }
 
 @include phone {

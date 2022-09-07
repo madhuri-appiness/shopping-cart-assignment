@@ -1,25 +1,16 @@
-@import '../common_mixin.scss';
-
 .form-sec {
-    .form-group{
+    .form-group {
         margin-bottom: 20px;
     }
-    .signup-data {
-        padding: 40px;
 
-        h4 {
-            margin-bottom: 20px;
-        }
-        @include phone{
-            padding: 0;
-        }
+    h4 {
+        margin-bottom: 20px;
     }
+
     label {
         display: block;
-        @include phone{
-           font-size: 14px;
-        }
     }
+
     input {
         width: 100%;
         border: none;
@@ -35,10 +26,12 @@
     .error {
         color: #ff0000;
     }
+
     .error-border {
         border-bottom: 1px solid #ff0000;
     }
-    .login-btn{
+
+    .login-btn {
         width: 100%;
     }
 }
